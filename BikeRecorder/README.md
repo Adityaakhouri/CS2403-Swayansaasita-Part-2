@@ -27,12 +27,10 @@ It acts as a **sensor node** in the multi-sensor pipeline.
 
 ## 🗂️ Project Structure
 
-Bikerecoder_fxcode/
+Bikerecoder
 │
-├── (Xcode project files)
-├── ViewControllers
-├── Networking modules
-└── Sensor handling logic
+├── App.zip (Xcode project files)
+├── Master
 
 ---
 
