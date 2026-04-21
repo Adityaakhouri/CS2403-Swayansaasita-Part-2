@@ -2,6 +2,17 @@
 
 ---
 
+## 📌 Description
+
+This app works together with the main recording script (`Master_Recorder.py`).
+
+* The **iOS app runs on the iPad/iPhone**
+* The **master script must run on the system where all cameras are connected**
+
+The app connects to the master system over the network to control recording and stream sensor data.
+
+---
+
 ## ▶️ How to Run the App
 
 ### 1. Open the Project
@@ -43,9 +54,21 @@ On first launch, allow:
 
 ## 🔌 Connect to Recorder
 
-* Make sure your device and system are on the same WiFi
-* Enter the **IP address of the host system**
-* Connect from the app
+1. On your computer (camera system), run:
+
+```bash
+python Master_Recorder.py
+```
+
+2. Make sure:
+
+* All cameras are connected to this system
+* Both devices are on the same WiFi
+
+3. In the app:
+
+* Enter the **IP address of the computer**
+* Connect
 
 ---
 
@@ -59,6 +82,7 @@ On first launch, allow:
 
 ## ⚠️ Notes
 
+* The master script must run on the camera-connected system
 * Keep both devices on the same network
 * Stable WiFi is required for smooth data streaming
-* If connection fails, recheck IP and firewall settings
+* If connection fails, check IP and firewall settings
