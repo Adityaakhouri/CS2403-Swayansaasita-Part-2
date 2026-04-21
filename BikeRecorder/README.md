@@ -21,14 +21,14 @@ It acts as a **sensor node** in the multi-sensor pipeline.
   * CHECK (detect cameras)
   * START (begin recording)
   * STOP (end recording)
-* 🔋 Provides device status (battery, connectivity)
+  * 🔋 Provides device status (battery, connectivity)
 
 ---
 
 ## 🗂️ Project Structure
 
-App.zip (Xcode project files)
-Master_Recorder.py (Control and cordinate all the six cameras)
+*App.zip (Xcode project files)
+*Master_Recorder.py (Control and cordinate all the six cameras)
 
 ---
 
