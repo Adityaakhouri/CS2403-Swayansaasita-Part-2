@@ -1,6 +1,6 @@
 # 🚴 CS2403 Swayansaasita Part 2
 
-### End-to-End Autonomous Driving Pipeline (Data Collection + AI Analysis)
+### End-to-End Autonomous Driving Pipeline for two wheelers (Data Collection + AI Analysis)
 
 ---
 
