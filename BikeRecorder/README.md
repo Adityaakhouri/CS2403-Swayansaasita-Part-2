@@ -27,8 +27,8 @@ It acts as a **sensor node** in the multi-sensor pipeline.
 
 ## 🗂️ Project Structure
 
-*App.zip (Xcode project files)
-*Master_Recorder.py (Control and cordinate all the six cameras)
+* App.zip (Xcode project files)
+* Master_Recorder.py (Control and cordinate all the six cameras)
 
 ---
 
