@@ -1,77 +1,64 @@
-
-# 📱 BikeRecorder iPad App
-
----
-
-## 📌 Overview
-
-The BikeRecorder app is an iPad-based application used to control and stream sensor data to the main recording system.
-
-It acts as a **sensor node** in the multi-sensor pipeline.
+# 📱 BikeRecorder iOS App
 
 ---
 
-## 🚀 Features
+## ▶️ How to Run the App
 
-* 📡 Sends **depth data** to the main system
-* 📐 Streams **pose (4x4 transformation matrices)**
-* 📲 Communicates with Python server via TCP
-* 🎮 Controls recording:
+### 1. Open the Project
 
-  * CHECK (detect cameras)
-  * START (begin recording)
-  * STOP (end recording)
-  * 🔋 Provides device status (battery, connectivity)
+* Extract `App.zip`
+* Open the `.xcodeproj` file in Xcode
 
 ---
 
-## 🗂️ Project Structure
+### 2. Connect Your Device
 
-* App.zip (Xcode project files)
-* Master_Recorder.py (Control and cordinate all the six cameras)
-
----
-
-## ⚙️ Requirements
-
-* iPad/Iphone device
-* Xcode (for building the app)
-* Network connection to host system
+* Plug in your iPad/iPhone via USB
+* Select your device in Xcode (top bar)
 
 ---
 
-## 🔌 Communication
+### 3. Enable Signing
 
-The app communicates with the main system using:
-
-* TCP → commands + depth stream
-* UDP → IMU + GPS data
+* Go to **Signing & Capabilities**
+* Select your Apple ID (Personal Team is fine)
 
 ---
 
-## 🧠 Role in System
+### 4. Build & Install
 
-The app provides:
-
-* Depth maps (used similar to LiDAR)
-* Pose estimation for scene understanding
-* Control interface for recording sessions
+* Click **Run (▶)** in Xcode
+* The app will install on your device
 
 ---
 
-## ▶️ How to Use
+### 5. Allow Permissions (Important)
 
-1.  Upload the app using Xcode
-2. Connect to the host system IP
-3. Use:
+On first launch, allow:
 
-   * CHECK → detect cameras
-   * START → begin recording
-   * STOP → stop recording
+* Camera access
+* Network access
 
 ---
 
-## 📌 Notes
+## 🔌 Connect to Recorder
 
-* Ensure both devices are on the same network
-* Stable connection is required for real-time streaming
+* Make sure your device and system are on the same WiFi
+* Enter the **IP address of the host system**
+* Connect from the app
+
+---
+
+## 🎮 Basic Usage
+
+* `CHECK` → Detect cameras
+* `START` → Start recording
+* `STOP` → Stop recording
+
+---
+
+## ⚠️ Notes
+
+* Keep both devices on the same network
+* Stable WiFi is required for smooth data streaming
+* If connection fails, recheck IP and firewall settings
