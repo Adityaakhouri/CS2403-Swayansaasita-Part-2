@@ -110,9 +110,3 @@ Includes:
 * Sensor fusion model integration
 * LiDAR + camera fusion
 * Deployment for edge devices
-
----
-
-## 📄 License
-
-This project is developed for academic and research purposes.
