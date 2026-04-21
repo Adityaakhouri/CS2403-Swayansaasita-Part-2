@@ -27,16 +27,14 @@ It acts as a **sensor node** in the multi-sensor pipeline.
 
 ## 🗂️ Project Structure
 
-Bikerecoder
-│
-├── App.zip (Xcode project files)
-├── Master
+App.zip (Xcode project files)
+Master_Recorder.py (Control and cordinate all the six cameras)
 
 ---
 
 ## ⚙️ Requirements
 
-* iPad device
+* iPad/Iphone device
 * Xcode (for building the app)
 * Network connection to host system
 
